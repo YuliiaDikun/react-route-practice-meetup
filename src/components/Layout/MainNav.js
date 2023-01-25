@@ -3,7 +3,7 @@ import css from "./MainNav.module.css";
 function MainNav() {
   return (
     <header className={css.header}>
-      <div>ReactMeetups</div>
+      <div className={css.logo}>React Meetups</div>
       <nav>
         <ul>
           <li>
