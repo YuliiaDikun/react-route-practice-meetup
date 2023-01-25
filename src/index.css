@@ -10,12 +10,28 @@ body {
   background-color: #fcf3f6;
 }
 
+
+a, a:visited {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.5rem;  
   color: #2c292b;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
   color: #2c292b;
 }

@@ -18,6 +18,7 @@ function MeetupItem({ meetup }) {
         <div className={css.image}>
           <img src={meetup.image} alt={meetup.title} />
         </div>
+
         <div className={css.content}>
           <h3>{meetup.title}</h3>
           <address>{meetup.address}</address>
