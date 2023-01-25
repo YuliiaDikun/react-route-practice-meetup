@@ -1,7 +1,9 @@
 import css from './MeetupItem.module.css';
+import Card from '../UI/Card';
 function MeetupItem({meetup}) {
   return (
     <li className={css.item}>
+      <Card>
       <div className={css.image}>
         <img src={meetup.image} alt={meetup.title} />
       </div>
@@ -13,6 +15,7 @@ function MeetupItem({meetup}) {
       <div className={css.actions}>
         <button>to fav</button>
       </div>
+      </Card>
     </li>
   );
 }
