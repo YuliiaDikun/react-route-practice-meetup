@@ -20,7 +20,8 @@
 
 .content {
   text-align: center;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
+  height:40%;
 }
 
 .content h3 {
@@ -47,7 +48,7 @@
 .actions button:active {
   background-color: #ffe2ed;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 980px) {
   .item {
     width: calc((100% - 30px) / 2);
   }
