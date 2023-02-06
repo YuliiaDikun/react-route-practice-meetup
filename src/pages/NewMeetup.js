@@ -1,7 +1,7 @@
 import NewMeetupForm from "../components/Meetups/NewMeetupForm";
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 function NewMeetup() {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
   const onAddMeetup = (meetupData) => {
     fetch(
       "https://react-meetup-16fc1-default-rtdb.firebaseio.com/meetups.json",
@@ -15,7 +15,7 @@ function NewMeetup() {
     )
       .then((res) => {
         console.log(res.status);
-        navigate('/', {replace: true})
+        navigate("/", { replace: true });
       })
       .catch((err) => console.log(err));
   };

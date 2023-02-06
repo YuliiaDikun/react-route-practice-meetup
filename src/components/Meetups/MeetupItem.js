@@ -5,6 +5,7 @@ import Card from "../UI/Card";
 function MeetupItem({ meetup }) {
   const favoritesCnx = useContext(FavContext);
   const itemIsFav = favoritesCnx.itemIsFavorite(meetup.id);
+
   const toggleFavStatus = () => {
     if (itemIsFav) {
       favoritesCnx.removeFavorite(meetup.id);
@@ -12,6 +13,7 @@ function MeetupItem({ meetup }) {
       favoritesCnx.addFavorite(meetup);
     }
   };
+
   return (
     <li className={css.item}>
       <Card>
