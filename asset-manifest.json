@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-route-practice-meetup/static/css/main.0eb93464.css",
-    "main.js": "/react-route-practice-meetup/static/js/main.e2296dee.js",
+    "main.css": "/react-route-practice-meetup/static/css/main.75732e75.css",
+    "main.js": "/react-route-practice-meetup/static/js/main.cab8cf55.js",
     "index.html": "/react-route-practice-meetup/index.html",
-    "main.0eb93464.css.map": "/react-route-practice-meetup/static/css/main.0eb93464.css.map",
-    "main.e2296dee.js.map": "/react-route-practice-meetup/static/js/main.e2296dee.js.map"
+    "main.75732e75.css.map": "/react-route-practice-meetup/static/css/main.75732e75.css.map",
+    "main.cab8cf55.js.map": "/react-route-practice-meetup/static/js/main.cab8cf55.js.map"
   },
   "entrypoints": [
-    "static/css/main.0eb93464.css",
-    "static/js/main.e2296dee.js"
+    "static/css/main.75732e75.css",
+    "static/js/main.cab8cf55.js"
   ]
 }
