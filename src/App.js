@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<AllMeetups />} />
         <Route path="/newmeetup" element={<NewMeetup />} />
         <Route path="/favotites" element={<Favorites />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
     </Layout>
   );
