@@ -6,15 +6,15 @@ import Error from "./pages/Error";
 import Layout from "./components/Layout/Layout";
 function App() {
   return (
-    <Layout>
-      <Routes>
+    <Routes>
+      <Route element={<Layout />}>
         <Route path="/" element={<AllMeetups />} />
         <Route path="/newmeetup" element={<NewMeetup />} />
         <Route path="/favotites" element={<Favorites />} />
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Navigate replace to="/404" />} />
-      </Routes>
-    </Layout>
+      </Route>
+    </Routes>
   );
 }
 

@@ -1,10 +1,13 @@
+import { Outlet } from "react-router-dom";
 import css from "./Layout.module.css";
 import MainNav from "./MainNav";
 function Layout(props) {
   return (
-    <div >
+    <div>
       <MainNav />
-      <main className={css.main}>{props.children}</main>
+      <main className={css.main}>
+        <Outlet /> {props.children}
+      </main>
     </div>
   );
 }
